@@ -10,4 +10,15 @@ The following project resolves unstructured data into well-defined tables in a s
 4. [Stage4](#email)
 
 ## Review
+The main application is located in `src/main.py`. To run it, use the following command:
 
+```bash
+# Run the main application
+python src/main.py
+
+This will help perform the extraction of data into a database with four tables: receipts, rececipt_items, brands, and users. 
+This will also print the results for two of the questions asked (NOTE: This assumes that 'Accepted' = 'Finished')
+  - When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
+When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
+  - When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
+When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
