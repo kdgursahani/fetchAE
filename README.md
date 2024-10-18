@@ -50,6 +50,7 @@ Summary of these data quality issues:
 - There were 71 with no receipt scanned at all. This is less of a data quality issue and more of a user-engagement problem. But it points to an interesting business case.
 - There were 40 users that had never logged-in. This is also a user-engagement problem. (This could also likely be fetch staff, which probably should be ignored in any future analysis)
 - Unusual spends were seen (Based of the heuristic I used (totalSpent is more than twice of the average spend)).
-- There were 148 receipts that had no associated user within the users table. Does the users table consist of users with non-deleted accounts only? Were these receipts issued by non-users? 
+- There were 148 receipts that had no associated user within the users table. Does the users table consist of users with non-deleted accounts only? Were these receipts issued by non-users? These all would be good questions to ask as a follow-up.
 
-
+## Stage4
+Review email.pdf for the email to the business stakeholder! 
