@@ -2,7 +2,7 @@
 The following project resolves unstructured data into well-defined tables in a sqlite3 database, and then performs querying to find answers to important business questions as well as identify any data quality issues present in the dataset provided. I had a lot of fun doing this.
 
 ## Stage1
-You can verify the relational data model in the 'Relational Data Model & Summary.pdf'.
+You can verify the relational data model in 'Relational Data Model & Summary.pdf'.
 
 Since receipts.json consisted of a list of receipt items as a field within a given receipt object, for the ease of future analysis of data, it was decided that receipt_items would have its own table.
 
