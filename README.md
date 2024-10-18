@@ -15,7 +15,7 @@ The main application is located in `src/main.py`. To run it, use the following c
 ```bash
 # Run the main application
 python src/main.py
-'''
+```
 
 This will help perform the extraction of data into a database with four tables: receipts, rececipt_items, brands, and users. 
 This will also print the results for two of the questions asked (NOTE: This assumes that 'Accepted' = 'Finished')
