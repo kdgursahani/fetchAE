@@ -36,7 +36,7 @@ Running `python src/main.py` will also print the results for two of the question
 
 ## Stage3
 Various data quality issues were investigated. First, using `missing_values_report.py`, a programmatic extractor for reporting missing values across each of the tables was created. Missing or null values can be a 
- data concern. One can run a missing values report using the following command but is not required to do so since the analysis exists in the *.xlsx files within `data_quality_reports`.
+ data concern. One can run a missing values report using the following command, a simple analysis exists in the *.xlsx files for brands and receipts within `data_quality_reports`.
 ```bash
 python src/missing_values_report.py --table 'receipts' --output 'data_quality_reports/receipts'
 ```
