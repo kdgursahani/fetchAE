@@ -21,8 +21,8 @@ python src/verify_schema.py --table 'receipts'
 ```
 
 ## Stage2
-Running `python src/main.py` will also print the results for two of the questions asked (NOTE: This assumes that 'Accepted' = 'Finished')
+Running `python src/main.py` will also print the results for two of the questions asked (NOTE: This assumes that 'Accepted' = 'Finished' as there were no instances of 'Accepted' observed)
   - When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
-When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
+When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
   - When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
-When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
+When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
