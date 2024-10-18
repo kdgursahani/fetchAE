@@ -41,3 +41,9 @@ Various data quality issues were investigated. First, using `missing_values_repo
 python src/missing_values_report.py --table 'receipts' --output 'data_quality_reports/receipts'
 ```
 
+Additionally, if you run the command `python src/data_quality_sql.py`, it will execute queries that take a deeper-dive into some of the data quality issues that I was interested in looking into.
+```bash
+python src/data_quality_sql.py
+```
+
+
