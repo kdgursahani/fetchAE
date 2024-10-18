@@ -23,6 +23,13 @@ python src/verify_schema.py --table 'receipts'
 ## Stage2
 Running `python src/main.py` will also print the results for two of the questions asked (NOTE: This assumes that 'Accepted' = 'Finished' as there were no instances of 'Accepted' observed)
   - When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
-When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
-  - When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
-When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
+    ```bash
+    Average spending by status: [('FINISHED', 80.85430501930502), ('REJECTED', 23.326056338028184)]
+    ```
+    We can see here that 'Finished/Accepted' receipts have a higher average spending compared to 'Rejected' receipts.
+
+- When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
+    ```bash
+    Items purchased: [('FINISHED', 5918), ('REJECTED', 164)
+    ```
+    We can see here that 'Finished/Accepted' receipts have a higher total number of items purchased compared to 'Rejected' ones.
