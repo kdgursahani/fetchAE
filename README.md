@@ -30,6 +30,6 @@ Running `python src/main.py` will also print the results for two of the question
 
 - When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
     ```bash
-    Items purchased: [('FINISHED', 5918), ('REJECTED', 164)
+    Items purchased: [('FINISHED', 5918), ('REJECTED', 164)]
     ```
     We can see here that 'Finished/Accepted' receipts have a higher total number of items purchased compared to 'Rejected' ones.
