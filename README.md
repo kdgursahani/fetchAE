@@ -1,16 +1,6 @@
 # Fetch Analytics Engineering
 The following project resolves unstructured data into well-defined tables in a sqlite3 database, and then performs querying to find answers to important business questions as well as identify any data quality issues present in the dataset provided. I had a lot of fun doing this.
 
-## Table of Contents
-
-0. [Review]
-1. [Stage1]
-2. [Stage2]
-3. [Stage3]
-4. [Stage4]
-
-## Review
-
 ## Stage1
 You can verify the relational data model in the 'Relational Data Model & Summary.pdf'.
 
