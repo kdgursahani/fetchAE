@@ -53,4 +53,4 @@ Summary of these data quality issues:
 - There were 148 receipts that had no associated user within the users table. Does the users table consist of users with non-deleted accounts only? Were these receipts issued by non-users? These all would be good questions to ask as a follow-up.
 
 ## Stage4
-Review email.pdf for the email to the business stakeholder! 
+Review Data Quality Insights and Next Steps.pdf for the email to the business stakeholder! 
