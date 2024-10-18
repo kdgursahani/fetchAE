@@ -12,7 +12,7 @@ The main application is located in `src/main.py`. To run it, use the following c
 # Run the main application
 python src/main.py
 ```
-This will help perform the extraction of data into a database with four tables: receipts, rececipt_items, brands, and users. The logic for extraction of data from `*.json.gz` is located within `extract_data.py`. Print statements have been placed strategically throughout `extract_data.py` to ensure that verification of loads can take place. Database connections are formed and maintained through `get_db_conn()` located in `db_conn.py`. Additionally, 'extract_data.py` consists of a function called `get_table_schema` that allows us to retrieve the schema of each one of the tables loaded into `data.db`. This can be of help to us while trying to verify the load of data into our database.
+This will help perform the extraction of data into a database with four tables: receipts, rececipt_items, brands, and users. The logic for extraction of data from `*.json.gz` is located within `extract_data.py`. Print statements have been placed strategically throughout `extract_data.py` to ensure that verification of loads can take place. Database connections are formed and maintained through `get_db_conn()` located in `db_conn.py`. Additionally, `extract_data.py` consists of a function called `get_table_schema` that allows us to retrieve the schema of each one of the tables loaded into `data.db`. This can be of help to us while trying to verify the load of data into our database.
 
 You can also verify the schema of each of the tables using the following command. (NOTE: A flag --table is required and it accepts the values of the table names)
 ```bash 
