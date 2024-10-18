@@ -27,7 +27,7 @@ This will help perform the extraction of data into a database with four tables: 
 You can also verify the schema of each of the tables using the following command. (NOTE: A flag --table is required and it accepts the values of the table names)
 ```bash 
 # Run verify_schema
-python src/verify_schema.py --table 'receipts.json'
+python src/verify_schema.py --table 'receipts'
 ```
 
 ## Stage2
