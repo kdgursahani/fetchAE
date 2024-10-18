@@ -21,7 +21,7 @@ python src/verify_schema.py --table 'receipts'
 ```
 
 ## Stage2
-Running `python src/main.py` will also print the results for two of the questions asked (NOTE: This assumes that 'Accepted' = 'Finished' as there were no instances of 'Accepted' observed)
+Running `python src/main.py` will also print the results for two of the questions asked (NOTE: This assumes that 'Accepted' = 'Finished' as there were no instances of 'Accepted' observed. These queries are located in `business_sql_queries.sql`)
   - When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Finished’ or ‘Rejected’, which is greater?
     ```bash
     Average spending by status: [('FINISHED', 80.85430501930502), ('REJECTED', 23.326056338028184)]
