@@ -36,7 +36,7 @@ Running `python src/main.py` will also print the results for two of the question
 
 ## Stage3
 Various data quality issues were investigated. First, using `missing_values_report.py`, a programmatic extractor for reporting missing values across each of the tables was created. Missing or null values can be a 
- data concern. One can run a missing values report using the following command but are not required to do so since the analysis exists in the *.xlsx files within `data_quality_reports`.
+ data concern. One can run a missing values report using the following command but is not required to do so since the analysis exists in the *.xlsx files within `data_quality_reports`.
 ```bash
 python src/missing_values_report.py --table 'receipts' --output 'data_quality_reports/receipts'
 ```
@@ -45,5 +45,11 @@ Additionally, if you run the command `python src/data_quality_sql.py`, it will e
 ```bash
 python src/data_quality_sql.py
 ```
+Summary of these data quality issues:
+- There were 448 instances of null purchase dates. This likely points to not being able to effectively scan/recognize the date present on the receipt.
+- There were 71 with no receipt scanned at all. This is less of a data quality issue and more of a user-engagement problem. But it points to an interesting business case.
+- There were 40 users that had never logged-in. This is also a user-engagement problem. (This could also likely be fetch staff, which probably should be ignored in any future analysis)
+- Unusual spends were seen (Based of the heuristic I used (totalSpent is more than twice of the average spend)).
+- There were 148 receipts that had no associated user within the users table. Does the users table consist of users with non-deleted accounts only? Were these receipts issued by non-users? 
 
 
