@@ -3,15 +3,16 @@ The following project resolves unstructured data into well-defined tables in a s
 
 ## Table of Contents
 
-0. [Review](#installation)
-1. [Stage1](#model&extract)
-2. [Stage2](#sqlqueries)
-3. [Stage3](#dataquality)
-4. [Stage4](#email)
+0. [Review]
+1. [Stage1]
+2. [Stage2]
+3. [Stage3]
+4. [Stage4]
 
 ## Review
 
 ## Stage1
+You can verify the relational data model in the 'Relational Data Model & Summary.pdf'
 The main application is located in `src/main.py`. To run it, use the following command:
 
 ```bash
